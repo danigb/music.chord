@@ -7,6 +7,8 @@ var operator = require('music.pitch.operator')
 /**
  * Build a chord from a source and a tonic
  *
+ * A chord is a list of notes or intervals is __ascending pitch order__
+ *
  * A source can be a list of intervals or notes. The tonic must be
  * a pitch (with or without octave) or false to get the intervals
  *
