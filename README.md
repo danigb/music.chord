@@ -6,12 +6,12 @@
 [![npm version](https://img.shields.io/npm/v/music.chord.svg)](https://www.npmjs.com/package/music.chord)
 [![license](https://img.shields.io/npm/l/music.chord.svg)](https://www.npmjs.com/package/music.chord)
 [![distribution file](https://img.shields.io/badge/dist-6.1kb-blue.svg)](https://raw.githubusercontent.com/danigb/music.chord/master/dist/music.chord.min.js)
-[![music.kit](https://img.shields.io/badge/music-kit-yellow.svg)](https://github.com/danigb/music.kit)
+[![music.kit](https://img.shields.io/badge/music.kit-yellow.svg)](https://github.com/danigb/music.kit)
 
 Music chords made easy:
 
 ```js
-var chord = require('music-chord')
+var chord = require('music.chord')
 var M9 = chord('1 3 5 7 9')
 M9('D3') // => ['D3', 'F#3', 'A#3', 'C#4', 'E4']
 var dom7 = chord('C E G Bb')
@@ -37,7 +37,7 @@ Grab the distribution file in [dist](https://github.com/danigb/music.chord/tree/
 This is the simplest usage:
 
 ```js
-var chord = require('music-chord')
+var chord = require('music.chord')
 chord('1 3 5 7b 9', 'F2') // => ['F2', 'A2', 'C3', 'Eb3', 'G3']
 ```
 
@@ -78,7 +78,10 @@ var chord('C E G B', false) // => ['1P', '3M', '5P', '7M']
 See [music.chords](https://github.com/danigb/music.chords) for a chord dictionary,
 [music.scale](https://github.com/danigb/music.scale) for scales, or [music.kit](https://github.com/danigb/music.kit) for the whole thing.
 
+## Documentation
 
-# License
+It's just [one function](https://github.com/danigb/music.chord/blob/master/API.md)
+
+## License
 
 MIT License
