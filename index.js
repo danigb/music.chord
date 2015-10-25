@@ -33,4 +33,5 @@ function chord (source, tonic) {
   }, source)
 }
 
-module.exports = chord
+if (typeof module === 'object' && module.exports) module.exports = chord
+if (typeof window !== 'undefined') window.chord = chord

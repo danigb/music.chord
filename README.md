@@ -22,13 +22,7 @@ This is part of [music.kit](https://github.com/danigb/music.kit).
 
 ## Install
 
-#### Node
-
-Not yet released. Cooming soon.
-
-#### Browsers
-
-Grab the distribution file in [dist](https://github.com/danigb/music.chord/tree/master/dist) folder
+Install via npm: `npm i --save music.scale` or grab the distribution file in [dist](https://github.com/danigb/music.chord/tree/master/dist) for browsers.
 
 ## Usage
 
@@ -54,7 +48,7 @@ __Its important to note that all chord notes are ordered by pitch:__
 chord('1 3 5 7 2', 'C') // => ['C', 'D', 'E', 'G', 'B']
 ```
 
-#### Build from notes
+#### Build chord from notes
 
 You can build from notes the same way (again, ordered notes):
 
