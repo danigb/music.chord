@@ -1,6 +1,6 @@
 {
   "name": "music.chord",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Music chords made easy",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "cover": "npm run coverage && open ./coverage/lcov-report/index.html",
     "benchmarks": "node test/benchmarks/*.js",
     "climate": "npm run coverage && npm run codeclimate",
-    "codeclimate": "CODECLIMATE_REPO_TOKEN=fcfefb53aa586b904e50df4da52d6dc294182107e236117758c3a048b17491ce codeclimate-test-reporter < coverage/lcov.info"
+    "codeclimate": "CODECLIMATE_REPO_TOKEN=ec3c76d032234a0bec428bc83ae756d95c70efe34502ca82625c7e2a7dcfb0d9 codeclimate-test-reporter < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -33,8 +33,8 @@
     "vows": "^0.8.1"
   },
   "dependencies": {
-    "music.gamut": "0.0.2",
-    "music.harmonizer": "0.0.4",
-    "music.pitch.operator": "0.0.4"
+    "music.gamut": "0.0.x",
+    "music.harmonizer": "0.0.x",
+    "music.pitch.operator": "0.0.x"
   }
 }
